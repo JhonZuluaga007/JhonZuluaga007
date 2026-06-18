@@ -17,12 +17,15 @@
 
 ```typescript
 const jhon = {
-  role:       "Senior Blockchain & Full Stack Engineer",
+  role:       "Senior Blockchain Engineer & Stablecoin Architect",
   location:   "Colombia 🇨🇴 — Open to remote worldwide",
   experience: "9+ years building production-grade financial systems",
 
-  blockchain: ["Solidity", "EVM", "OpenZeppelin", "Hardhat", "ethers.js",
-               "Solana/Rust", "Anchor", "Fireblocks", "KYC/AML"],
+  highlight:  "Architected COPW — COP-pegged stablecoin on Polygon for Bancolombia Group",
+
+  blockchain: ["Solidity", "EVM", "OpenZeppelin Upgradeable", "Hardhat", "ethers.js",
+               "Solana/Rust", "Anchor", "Fireblocks", "Chainlink PoR",
+               "Stablecoin Architecture", "KYC/AML"],
 
   backend:    ["Python", "FastAPI", "Django", "Go", "Java",
                "LangChain", "OpenAI API", "RAG"],
@@ -46,7 +49,7 @@ const jhon = {
 | 🟡 **Mercado Libre** | Senior Backend Engineer | Go · BigQuery · Dataflow · n8n | 2025 |
 | 🔵 **Auxo** | Senior Full Stack Engineer | Flutter · Python/Django · Next.js · AWS | 2025 – Present |
 | 🟢 **B2Fintech** | Blockchain & Mobile Lead | Flutter · Fireblocks · Solana · KYC | 2024 – 2025 |
-| 🟣 **Wenia** | Mobile Technical Lead | Flutter · Fireblocks · Pomelo · AlphaPoint | 2022 – 2024 |
+| 🟣 **Wenia** | Blockchain Engineer & Stablecoin Architect | Solidity · OZ Upgradeable · Chainlink PoR · Fireblocks · Circle/USDC | 2022 – 2024 |
 | 🔴 **Kumuly** | Blockchain Engineer | Solidity · Lightning Network · The Graph | 2021 – 2022 |
 | ⚫ **Ceiba / Suramericana** | Developer Architect | Java · Apache Camel · RabbitMQ · Oracle | 2017 – 2021 |
 
@@ -66,13 +69,18 @@ const jhon = {
 </div>
 
 **Production experience:**
-- 🔐 **Fireblocks** — institutional custody integration at Wenia & B2Fintech
-- 💳 **Pomelo** — Mastercard/Visa card issuance & management
-- 📈 **AlphaPoint** — exchange & liquidity rail for crypto-fiat operations
-- ✅ **KYC/AML** — end-to-end compliance flows for regulated crypto apps
-- ⚡ **Lightning Network** — Bitcoin payment integrations at Kumuly
-- 📊 **The Graph** — on-chain data indexing & subgraph deployment
-- 🔗 **Chainlink** — oracles, VRF & automation (workshops @ Blockchain Academy)
+🪙 **COPW Stablecoin** (Polygon mainnet) — architected the COP-pegged stablecoin for Wenia/Bancolombia Group (Colombia's largest bank). Upgradeable ERC-20 (OZ proxy pattern), **Chainlink Proof of Reserve integrated in mint function** as on-chain circuit breaker, OZ Defender Sentinels for custody, COPW/USDC pair with Circle, Alchemy RPC. **Audited & verified by OpenZeppelin.** — [View on Polygonscan](https://polygonscan.com/token/0x1d22c334621364F16f050076eE15Acd5eb8225Ce)
+ 
+🔗 **Chainlink PoR** — integrated as on-chain circuit breaker in COPW mint function (Polygon mainnet, production)
+🔐 **Fireblocks** — institutional custody integration at Wenia & B2Fintech (Policy Engine, Wallets-as-a-Service, Tokenization Engine)
+🔵 **Circle / USDC** — COPW/USDC trading pair integration for stablecoin liquidity
+💳 **Pomelo** — Mastercard/Visa card issuance & management
+📈 **AlphaPoint** — exchange & liquidity rail for crypto-fiat operations
+🔒 **OZ Defender Sentinels** — automated wallet custody monitoring & on-chain automation
+🔔 **Notabene** — Travel Rule compliance (VASP-to-VASP)
+✅ **KYC/AML** — end-to-end compliance flows for regulated crypto apps
+⚡ **Lightning Network** — Bitcoin payment integrations at Kumuly
+📊 **The Graph** — on-chain data indexing & subgraph deployment
 
 ---
 
@@ -134,6 +142,15 @@ Clean Architecture · Bloc · GoRouter · Dio · GetIt · Dartz · 4+ years in p
 ---
 
 ## 📌 Featured Projects
+
+### 🪙 COPW Stablecoin — Wenia / Bancolombia Group
+> COP-pegged stablecoin deployed on Polygon mainnet for Colombia's largest bank. OpenZeppelin upgradeable contracts (proxy pattern), **Chainlink Proof of Reserve** in mint function as on-chain circuit breaker against infinite mint attacks, OZ Defender Sentinels for automated custody, COPW/USDC pair with Circle, Alchemy RPC. **Audited & verified by OpenZeppelin.**
+ 
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity) ![Chainlink](https://img.shields.io/badge/Chainlink-PoR-375BD2?style=flat&logo=chainlink&logoColor=white) ![Polygon](https://img.shields.io/badge/Polygon-mainnet-8247E5?style=flat) ![OpenZeppelin](https://img.shields.io/badge/Audited-OpenZeppelin-4E5EE4?style=flat) ![Circle](https://img.shields.io/badge/Circle-USDC%20pair-00A8E0?style=flat)
+ 
+🔗 [View contract on Polygonscan](https://polygonscan.com/token/0x1d22c334621364F16f050076eE15Acd5eb8225Ce) · [Fireblocks case study](https://www.fireblocks.com/customers/bancolombia-group)
+ 
+---
 
 ### 🎭 [marketplace-cyber-punks](https://github.com/JhonZuluaga007/marketplace-cyber-punks)
 > PaloPunks — fully on-chain generative NFT collection. ERC-721 with DNA-based trait engine, ERC-2981 royalties, on-chain Base64 metadata. **80 tests · TypeScript · Hardhat · OpenZeppelin**
@@ -197,6 +214,7 @@ Clean Architecture · Bloc · GoRouter · Dio · GetIt · Dartz · 4+ years in p
 ## 📝 Latest Articles *(coming soon on Medium)*
 
 <!-- BLOG-POST-LIST:START -->
+- 🪙 Architecting a COP-pegged stablecoin on Polygon — decisions behind COPW
 - 🔐 Integrating Fireblocks custody in a Flutter app — what nobody tells you
 - ⚡ From Solidity to Rust/Anchor: my transition to Solana development  
 - 📊 Indexing DeFi data with The Graph — a practical guide
