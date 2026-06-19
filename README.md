@@ -159,6 +159,13 @@ Clean Architecture · Bloc · GoRouter · Dio · GetIt · Dartz · 4+ years in p
 
 ---
 
+### ⛓️ [crowdfunding-protocol-solidity](https://github.com/JhonZuluaga007/FirstSmartContract)
+> First steps with Solidity smart contracts using Hardhat. EVM deployment, ABI interaction and testing basics.
+
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity) ![Hardhat](https://img.shields.io/badge/Hardhat-yellow?style=flat)
+
+---
+
 ### 📱 [flutter-clean-architecture-crud](https://github.com/JhonZuluaga007/flutter-clean-architecture-crud)
 > Production-ready Flutter app · CRUD users · Clean Architecture + Feature-First · Bloc · GoRouter · Dio · Dartz. **132 tests · 85% coverage · 0 failing**
 
@@ -170,13 +177,6 @@ Clean Architecture · Bloc · GoRouter · Dio · GetIt · Dartz · 4+ years in p
 > Docker Swarm orchestration with Terraform IaC. Multi-service infrastructure reproducible across environments.
 
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![HCL](https://img.shields.io/badge/HCL-IaC-623CE4?style=flat)
-
----
-
-### ⛓️ [FirstSmartContract](https://github.com/JhonZuluaga007/FirstSmartContract)
-> First steps with Solidity smart contracts using Hardhat. EVM deployment, ABI interaction and testing basics.
-
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity) ![Hardhat](https://img.shields.io/badge/Hardhat-yellow?style=flat)
 
 ---
 
