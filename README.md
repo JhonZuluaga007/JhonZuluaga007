@@ -184,9 +184,9 @@ Clean Architecture · Bloc · GoRouter · Dio · GetIt · Dartz · 4+ years in p
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=JhonZuluaga007&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=43200&hide=contribs"/>
+<img height="180em" src="https://github-readme-stats-fast.vercel.app/api?username=JhonZuluaga007&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=43200&hide=contribs"/>
 &nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JhonZuluaga007&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400&hide=cmake,c%2B%2B"/>
+<img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=JhonZuluaga007&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400&hide=cmake,c%2B%2B"/>
 
 </div>
 
